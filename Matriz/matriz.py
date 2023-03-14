@@ -1,9 +1,16 @@
 import random
 
+<<<<<<< HEAD
 # Crear matriz 5x5 randomizada
 matriz = [[random.randint(0,9) for j in range(5)] for i in range(5)]
 
 # Imprimir matriz
+=======
+#Crear matriz 5x5 randomizada
+matriz = [[random.randint(0,9) for j in range(5)] for i in range(5)]
+
+#Imprimir matriz
+>>>>>>> clases
 print("Matriz:")
 for fila in matriz: 
     print(fila)
@@ -20,3 +27,7 @@ for j in range(5):
     for i in range(5 - 3):
         if matriz[i][j] == matriz[i+1][j] - 1 == matriz[i+2][j] - 2 == matriz[i+3][j] - 3:
             print(f"Secuencia encontrada en la columna {j} desde la fila {i} hasta la fila {i+3}")
+<<<<<<< HEAD
+=======
+
+>>>>>>> clases
